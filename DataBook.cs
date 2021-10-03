@@ -16,6 +16,11 @@ namespace Spreetail
 
         public bool AddMember(string key, string value)
         {
+            if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentNullException();
+            }
+
             bool success;
 
             DataMemberList.TryGetValue(key, out HashSet<string> currentValueList);
