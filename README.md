@@ -1,1 +1,1 @@
-# SpreetailRepo
+A Multi-Value Dictionary Console App written in .NETCore 3.1. Will run on Linux, Windows, or MacOS

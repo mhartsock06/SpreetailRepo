@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spreetail", "Spreetail.csproj", "{03AE5FEC-A3EF-4934-A2E6-5D6507CFDE7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BAC5736-5B8A-4A3F-B4D3-FC0C5E1C7038}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVDUnitTests", "..\MVDUnitTests\MVDUnitTests.csproj", "{EACEDB81-36AA-4693-A10B-967185691431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03AE5FEC-A3EF-4934-A2E6-5D6507CFDE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AE5FEC-A3EF-4934-A2E6-5D6507CFDE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AE5FEC-A3EF-4934-A2E6-5D6507CFDE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AE5FEC-A3EF-4934-A2E6-5D6507CFDE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACEDB81-36AA-4693-A10B-967185691431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACEDB81-36AA-4693-A10B-967185691431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACEDB81-36AA-4693-A10B-967185691431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACEDB81-36AA-4693-A10B-967185691431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DE87C62-595E-4D0D-B483-00F3959771A3}
+	EndGlobalSection
+EndGlobal
