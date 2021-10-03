@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Spreetail
+﻿namespace Spreetail
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-            var display = new InputDisplay();
+            InputDisplay display = new InputDisplay();
 
             display.HUD();
         }

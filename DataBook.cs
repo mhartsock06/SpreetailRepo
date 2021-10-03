@@ -102,7 +102,7 @@ namespace Spreetail
         public bool MemberExists(string key, string value)
         {
             bool keyExists = DataMemberList.TryGetValue(key, out HashSet<string> currentValueList);
-            bool memberExists = keyExists ? (bool)currentValueList?.Contains(value) : false;
+            bool memberExists = keyExists && (bool)currentValueList?.Contains(value);
 
             return keyExists && memberExists;
 
@@ -123,13 +123,6 @@ namespace Spreetail
         public Dictionary<string, HashSet<string>> ListAllItems()
         {
             return DataMemberList;
-        }
-
-        private IEnumerable<string> DoesKeyExist(string key)
-        {
-            DataMemberList.TryGetValue(key, out HashSet<string> currentValueList);
-
-            return currentValueList;
         }
     }
 }
